@@ -1,5 +1,7 @@
 # Custom Carousel
 
+[Demo Live Link](https://mhmadrashd.github.io/Carousel/)
+
 ## - To use it add this files to your project:
 
 ### - js carousel file
