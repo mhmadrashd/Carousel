@@ -1,0 +1,132 @@
+body {
+  .container {
+    button {
+      cursor: pointer;
+      padding: 5px 10px !important;
+    }
+    h2 {
+      margin: 50px 0px;
+    }
+    .first-section {
+      button {
+        background-color: rgb(26, 53, 160);
+        padding: 5px;
+        border: 0px;
+        border-radius: 15px;
+        color: white;
+      }
+      .carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .items {
+          display: flex;
+          align-items: center;
+          margin: 20px;
+          .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aqua;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+          }
+        }
+      }
+    }
+
+    .second-section {
+      button {
+        background-color: rgb(26, 160, 37);
+        padding: 5px;
+        border: 0px;
+        border-radius: 5px;
+        color: white;
+      }
+      .carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .items {
+          display: flex;
+          align-items: center;
+          margin: 20px;
+          .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(215, 20, 72);
+            color: white;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+          }
+        }
+      }
+    }
+
+    .third-section {
+      margin: 115px 0px;
+      button {
+        background-color: rgb(160, 66, 26);
+        padding: 5px;
+        border: 0px;
+        border-radius: 15px;
+        color: white;
+      }
+      .carousel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .items {
+          display: flex;
+          align-items: center;
+          margin-bottom: 50px;
+          .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(68, 20, 147);
+            color: white;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+          }
+        }
+      }
+    }
+
+    .last-section {
+      margin: 115px 0px;
+      button {
+        background-color: rgb(160, 66, 26);
+        padding: 5px;
+        border: 0px;
+        border-radius: 15px;
+        color: white;
+      }
+      .carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .items {
+          display: flex;
+          align-items: center;
+          margin-bottom: 50px;
+          .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(28, 148, 26);
+            color: white;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+          }
+        }
+      }
+    }
+  }
+}
